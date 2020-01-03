@@ -1,8 +1,8 @@
-# 20200103 html_test_day21
+# 20200103 html_test day21
 
-### 글자 출력 예제
+## 문자 입력 연습
 
-```html
+```
 <!DOCTYPE html>
 <html>
 <head>
@@ -23,9 +23,7 @@
 
 
 
-## 글자 출력, 이미지 출력, 테이블 출력 예제
-
-```html
+```
 <!DOCTYPE html>
 <html>
 <head><!--이런저런정보-->
