@@ -90,17 +90,58 @@ option 을 통해 추천 리스트 설정
 
 # css
 
-
-
 ```html
-color 정하기
-<h2 style ="color:red; background-color: yellow">도우너</h2>
+- color 정하기
+	<h2 style ="color:red; background-color: yellow">도우너</h2>
+	<h2 style ="color:red; background-color: yellow">도우너</h2>
 
-hover
-#t1:hover{
-	font-weight : bold;
-	color :red;
-}
+
+- 선택하면 빨간색으로 변경: hover
+	<style>
+	#t1:hover{
+		font-weight : bold;
+		color :red;
+	}
+	</style>
+
+
+- 투명하게: opacity
+	<style>
+	.t2:hover {
+	opacity :0.3;
+	<!-- 0.0(완전 투명)~1.0(완전 불투명) -->
+	}
+	</style>
+
+- 테두리선: border
+	border : 1px solid blue;
+
+
+- 특정 부분만 다르게 적용하고 싶다면 
+	:<div></div>, <span></span>
+
+css를 다르게 적용하려는 태그 또는 태그의 컨텐트에 정의하는 용도의 태그들
+	<div>:행바꿈 해서 변경 (여러 태그들을 묶거나 또는 태그에 대하여 CSS 	속성을 적용할 때)
+	<span>: 행바꿈 하지 않고 변경 (컨텐트의 일부분에 대하여 CSS속성을 적	용할 때)
+
+    
+    
+- 공통의 이름 class
+	.sampleclass {text-decoration:underline;}
+
+
+- 싱글 이름 id
+	#sampleid {text-decoration: underline;
+	}
+	#t1:hover{
+		font-weight : bold;
+		color :red;
+	}
+	<!--hover 마우스를 가져다 놓으면 그것만 빨간색으로 변한다. -->
+
+
+
+
 ```
 
 
