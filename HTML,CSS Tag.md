@@ -135,8 +135,43 @@ css를 다르게 적용하려는 태그 또는 태그의 컨텐트에 정의하�
 		color :red;
 	}
 	<!--hover 마우스를 가져다 놓으면 그것만 빨간색으로 변한다. -->
+        
+        
+- 텍스트 정렬
+        text-align : center; 가운데 		정렬
+        text-align; 왼쪽 정렬
+		text-align : right;
+        
+        
+- 배경색 설정
+	background-color : lime;
+        
+- 첫번째 태그와 두번째 태그 사이의 간격: 	margin       
+	margin : 5px;
+        
+- 넒이        
+	width : 50%;
+        
+- 높이        
+	height : 200px;
+        
+-폰트 사이즈        
+	font-size : 1.5em;
+        
+-         
+	padding : 10px;
 
+        
+-그림자
+	text-shadow : 2px 2px 5px red;
+        /*위아래, 좌우, 두깨 */
 
+	box-shadow
+        
+        
+- 리스트 스타일 변경
+        list-style-type: circle;
+        list-style-type: square;
 
 
 ```
