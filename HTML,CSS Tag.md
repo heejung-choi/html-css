@@ -76,13 +76,6 @@ option 을 통해 추천 리스트 설정
 			<option value=제시카>	
 			<!-- option: 추천 리스트 -->
         </datalist>
-         
-    
-    
-   
-
-  
-      
  
 ```
 
@@ -114,7 +107,11 @@ option 을 통해 추천 리스트 설정
 	</style>
 
 - 테두리선: border
-	border : 1px solid blue;
+	border : 1px solid blue; //실선
+	border : 1px dotted red; //점선
+	border-radius : 5px;//모서리 부분 둥글게
+
+
 
 
 - 특정 부분만 다르게 적용하고 싶다면 
