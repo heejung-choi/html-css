@@ -1,0 +1,59 @@
+ <!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>css학습</title>
+<style>
+div{
+background-color : lime;
+margin : 5px;
+width : 50%;
+height : 200px;
+font-size : 1.5em;
+padding : 10px;
+
+}
+
+img{
+border : 1px dotted red;
+border-radius : 5px;
+margin-right : 5px;
+
+}
+.two{
+ 	text-align : center;
+ 	<!--margin-left: auto;
+ 	margin-right: auto;--!>
+ 	margin : 10px auto;
+ 	background-color : white;
+ }
+ 
+ h1{
+ 	text-shadow : -2px -2px 5px red;
+ 	
+
+ }
+ 
+  h1:hover{
+ 	transfrom : rotate(-90deg);
+ 	transition : transform 2s;
+
+ }
+
+
+</style>
+</head>
+<body>
+<h1>블럭 스타일 태그와 인라인 스타일 태그</h1>
+<hr>
+<div>가나다라마바사아</div>
+<div class="two">0123456789</div>
+<div>abcdefghj</div>
+<hr>
+<div class="two">
+<img src="../images/totoro.png"width="100" class = "t2">
+<img src="/edu/images/totoro.png"width="100" class = "t2">
+<img src="http://localhost:8000/edu/images/totoro.png"width="100">
+</div>
+</body>
+</html>

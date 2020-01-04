@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>CSS 학습</title>
+<style>
+a{ 
+	text-decoration : none
+}
+#t1:hover{
+	font-weight : bold;
+	color :red;
+}
+<!--hover 마우스를 가져다 놓으면 그것만 빨간색으로 변한다. -->
+<!-- 전역적인 방법: 태그이름{(블럭지정)
+}-->
+.t2:hover {
+opacity :0.3;
+<!-- 0.0(완전 투명)~1.0(완전 불투명) -->
+}
+
+h1, a{
+	border : 1px solid blue;
+}
+
+span{
+	color : #ff4d94;
+}
+
+</style>
+</head>
+<body>
+<h1>CSS 선택자  <span>학습</span></h1>
+<hr>
+<!--  <a href="https://www.w3schools.com/" style="text-decoration:none">W3Schools</a><br>
+<!-- ""인용부호가 있으면 다음번에 오는 속성이 와도 된다. 
+인라인 방식은 테크마다 각각 구현해야 한다.  style="text-decoration:none"
+<a href="http://html5test.com/" style="text-decoration:none">HTML5 테스트</a><br>
+<a href="https://caniuse.com/" style="text-decoration:none">HTML과 CSS의 지원여부 체크</a>ㅋㅋㅋ<br>-->
+
+<a href="https://www.w3schools.com/" >W3Schools</a><br>
+<a href="http://html5test.com/" id="t1" >HTML5 테스트</a><br>
+<a href="https://caniuse.com/">HTML과 CSS의 지원여부 체크</a>ㅋㅋㅋ<br>
+
+
+<img src="../images/totoro.png"width="100" class = "t2"><!--상대 URL  -->
+<img src="/edu/images/totoro.png"width="100" class = "t2"><!--상대 URL  -->
+<img src="http://localhost:8000/edu/images/totoro.png"width="100"><!--절대 URL  -->
+<h2></h2>
+
+
+
+</body>
+</html>
