@@ -1,6 +1,6 @@
-# HTML Tag
+# HTML Tag /CSS Tag
 
-
+# html
 
 ```HTML
 <head>
@@ -77,7 +77,9 @@ option 을 통해 추천 리스트 설정
 			<!-- option: 추천 리스트 -->
         </datalist>
          
-
+    
+    
+   
 
   
       
@@ -85,6 +87,21 @@ option 을 통해 추천 리스트 설정
 ```
 
 
+
+# css
+
+
+
+```html
+color 정하기
+<h2 style ="color:red; background-color: yellow">도우너</h2>
+
+hover
+#t1:hover{
+	font-weight : bold;
+	color :red;
+}
+```
 
 
 
