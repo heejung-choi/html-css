@@ -170,10 +170,18 @@ css를 다르게 적용하려는 태그 또는 태그의 컨텐트에 정의하�
         
         
 - 리스트 스타일 변경
-        list-style-type: circle;
-        list-style-type: square;
+    list-style-type: circle;
+    list-style-type: square;
 
-
+- 비스듬히 출력
+    <em>오늘은 즐거운 월요일</em><br>   
+        
+- 두껍게 출력
+	<strong>고르세용</strong><br>
+        
+- 형광펜
+    <mark>먹고싶은거</mark>
+    
 ```
 
 
